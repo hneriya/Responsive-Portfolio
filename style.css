@@ -200,14 +200,19 @@ h3,
 
 /* contact page */
 
-#contact-form ul {
+        /*beginning of edits for table*/
+.form-group{
+  margin-bottom: 20px;
+}
+
+/*#contact-form ul {
   margin-bottom: 20px;
 }
 
 #contact-form li {
   margin-bottom: 10px;
 }
-
+*/
 label,
 input[type=text],
 input[type=email],
@@ -240,7 +245,17 @@ input[type=submit] {
 
 
 @media screen and (max-width: 980px) {
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar{
+    float: left;
+  }
+}
+
+@media screen and (max-width: 640px) {
   #masthead{
     position: static;
   }
 }
+
